@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T07:27:03.029Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="16.1.0" etag="pJloNocizr_SbFkwLUF7" type="github"><diagram id="IBeZY5j3EHNmsc5WixIn">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-17T07:34:30.156Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="cGwEE25MIlgB9j7kW3JM" version="16.1.0" type="github">
+  <diagram id="IBeZY5j3EHNmsc5WixIn" name="Page-1">
+    <mxGraphModel dx="727" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vZBvs_NdrT2O9yNe7isU-19" value="" style="group;align=left;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="20" width="520" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vZBvs_NdrT2O9yNe7isU-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vZBvs_NdrT2O9yNe7isU-19">
+          <mxGeometry width="520" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vZBvs_NdrT2O9yNe7isU-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.35;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.001;entryY=0.345;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="vZBvs_NdrT2O9yNe7isU-19" source="vZBvs_NdrT2O9yNe7isU-1" target="vZBvs_NdrT2O9yNe7isU-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="190" as="sourcePoint" />
+            <mxPoint y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZBvs_NdrT2O9yNe7isU-10" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.997;entryY=0.703;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="vZBvs_NdrT2O9yNe7isU-19" source="vZBvs_NdrT2O9yNe7isU-1" target="vZBvs_NdrT2O9yNe7isU-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="221" as="sourcePoint" />
+            <mxPoint x="530.5199999999998" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZBvs_NdrT2O9yNe7isU-11" value="前端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vZBvs_NdrT2O9yNe7isU-19">
+          <mxGeometry x="20" y="35" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZBvs_NdrT2O9yNe7isU-12" value="服务端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vZBvs_NdrT2O9yNe7isU-19">
+          <mxGeometry x="20" y="123" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZBvs_NdrT2O9yNe7isU-13" value="底层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vZBvs_NdrT2O9yNe7isU-19">
+          <mxGeometry x="20" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZBvs_NdrT2O9yNe7isU-14" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="vZBvs_NdrT2O9yNe7isU-19">
+          <mxGeometry x="150" y="15" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vZBvs_NdrT2O9yNe7isU-29" value="老师" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="vZBvs_NdrT2O9yNe7isU-19">
+          <mxGeometry x="279" y="15" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vZBvs_NdrT2O9yNe7isU-30" value="学生" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="vZBvs_NdrT2O9yNe7isU-19">
+          <mxGeometry x="410" y="15" width="30" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
