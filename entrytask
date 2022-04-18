@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T08:28:17.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="PxVTAg1ArykrO9OHWLTw" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-18T08:30:20.025Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="OG7FVa1AvlUOr79YXKOe" version="17.4.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="550" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1274,10 +1274,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JPwQbxq67I6jiSlKYV1S-391" value="HTTP" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="10200" y="160" width="180.63" height="350" as="geometry" />
+          <mxGeometry x="10200" y="160" width="180.63" height="450" as="geometry" />
         </mxCell>
         <mxCell id="JPwQbxq67I6jiSlKYV1S-392" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JPwQbxq67I6jiSlKYV1S-391">
-          <mxGeometry x="80.63" y="60" width="10" height="60" as="geometry" />
+          <mxGeometry x="85.32" y="60" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JPwQbxq67I6jiSlKYV1S-393" value="1. 确认邮件" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="JPwQbxq67I6jiSlKYV1S-391" target="JPwQbxq67I6jiSlKYV1S-392">
           <mxGeometry relative="1" as="geometry">
@@ -1285,7 +1285,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JPwQbxq67I6jiSlKYV1S-394" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JPwQbxq67I6jiSlKYV1S-391">
-          <mxGeometry x="80.63" y="180" width="10" height="60" as="geometry" />
+          <mxGeometry x="85.32" y="180" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JPwQbxq67I6jiSlKYV1S-397" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="10090" y="190" width="30" height="60" as="geometry" />
@@ -1304,7 +1304,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JPwQbxq67I6jiSlKYV1S-400" value="Redis" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="10450" y="160" width="80" height="350" as="geometry" />
+          <mxGeometry x="10450" y="160" width="80" height="450" as="geometry" />
         </mxCell>
         <mxCell id="JPwQbxq67I6jiSlKYV1S-401" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JPwQbxq67I6jiSlKYV1S-400">
           <mxGeometry x="35" y="120" width="10" height="60" as="geometry" />
@@ -1318,6 +1318,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="JPwQbxq67I6jiSlKYV1S-413" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JPwQbxq67I6jiSlKYV1S-406" target="JPwQbxq67I6jiSlKYV1S-412">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10730" y="460" />
+              <mxPoint x="10730" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPwQbxq67I6jiSlKYV1S-417" value="4. 写数据库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JPwQbxq67I6jiSlKYV1S-413">
+          <mxGeometry x="-0.4092" y="-1" relative="1" as="geometry">
+            <mxPoint x="23" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JPwQbxq67I6jiSlKYV1S-406" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="10620" y="400" width="10" height="60" as="geometry" />
         </mxCell>
@@ -1329,17 +1342,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JPwQbxq67I6jiSlKYV1S-408" value="GRPC" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="10585" y="160" width="80" height="350" as="geometry" />
+        <mxCell id="JPwQbxq67I6jiSlKYV1S-416" value="3. 验证成功，将用户状态标记为“已确认邮箱”" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JPwQbxq67I6jiSlKYV1S-407">
+          <mxGeometry x="-0.1088" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="JPwQbxq67I6jiSlKYV1S-409" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JPwQbxq67I6jiSlKYV1S-408">
-          <mxGeometry x="35" y="120" width="10" height="60" as="geometry" />
+        <mxCell id="JPwQbxq67I6jiSlKYV1S-408" value="GRPC" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="10585" y="160" width="80" height="450" as="geometry" />
         </mxCell>
         <mxCell id="JPwQbxq67I6jiSlKYV1S-410" value="Mysql" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="10720" y="160" width="80" height="350" as="geometry" />
+          <mxGeometry x="10720" y="160" width="80" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="JPwQbxq67I6jiSlKYV1S-411" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JPwQbxq67I6jiSlKYV1S-410">
-          <mxGeometry x="35" y="120" width="10" height="60" as="geometry" />
+        <mxCell id="JPwQbxq67I6jiSlKYV1S-412" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JPwQbxq67I6jiSlKYV1S-410">
+          <mxGeometry x="35" y="300" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JPwQbxq67I6jiSlKYV1S-414" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="JPwQbxq67I6jiSlKYV1S-391">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10760" y="520" as="sourcePoint" />
+            <mxPoint x="10680" y="520" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
